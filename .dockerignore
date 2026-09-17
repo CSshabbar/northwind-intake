@@ -1,0 +1,11 @@
+node_modules
+.next
+.git
+.env*
+*.bundle
+data/*.sqlite
+data/*.sqlite-*
+npm-debug.log*
+README.md
+docs
+tests

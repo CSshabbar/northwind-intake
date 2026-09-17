@@ -8,7 +8,7 @@
   "scripts": {
     "dev": "next dev --hostname 0.0.0.0 --port 43145",
     "build": "next build",
-    "start": "next start --hostname 0.0.0.0 --port 43145",
+    "start": "next start --hostname 0.0.0.0 --port ${PORT:-43145}",
     "lint": "eslint",
     "test": "vitest run",
     "provision": "node scripts/provision-vapi.mjs"

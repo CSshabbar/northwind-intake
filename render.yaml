@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: northwind-intake
+    runtime: docker
+    plan: free
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: DATABASE_PATH
+        value: /app/data/clinic.sqlite
+      - key: VAPI_API_KEY
+        sync: false
+      - key: GROQ_API_KEY
+        sync: false
+      - key: VAPI_WEBHOOK_SECRET
+        generateValue: true
+      - key: PUBLIC_API_URL
+        sync: false
