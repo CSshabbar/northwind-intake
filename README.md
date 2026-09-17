@@ -9,7 +9,7 @@ This is a take-home assessment system. It is **not HIPAA-compliant**. Do not sto
 | | |
 |---|---|
 | **Dial** | **+1 (531) 213-1028** |
-| **Public dashboard** | Down until someone re-runs a Cloudflare tunnel + `npm run provision` (quick tunnels die with the VM) |
+| **Public dashboard / API** | https://architectural-absorption-duck-nearly.trycloudflare.com |
 | **Local desk** | `http://127.0.0.1:43145` after the steps below |
 
 The phone number is a Vapi free US line. Voice tool calls only persist if `PUBLIC_API_URL` still reaches this app. Assistant ids live in `data/live.json`.
@@ -22,15 +22,10 @@ Node **22+**. `better-sqlite3` needs a working C++ toolchain (Xcode CLT on macOS
 
 ### 1. Get the code
 
-This Origin repo is still a temp project. From a clone:
-
 ```bash
-git clone https://origin.cursor.com/git/idiaz/tmp-96a294e644c57b34.git northwind-intake
+git clone https://github.com/CSshabbar/northwind-intake.git
 cd northwind-intake
-git checkout cursor/intake-console-ui-da12
 ```
-
-If you already have the Cursor project open, skip clone and just check out `cursor/intake-console-ui-da12`.
 
 ### 2. Env file (names only — never commit values)
 
