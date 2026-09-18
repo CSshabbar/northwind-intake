@@ -9,7 +9,7 @@ This is a take-home assessment system. It is **not HIPAA-compliant**. Do not sto
 | | |
 |---|---|
 | **Dial** | **+1 (531) 213-1028** |
-| **Public dashboard / API** | https://architectural-absorption-duck-nearly.trycloudflare.com |
+| **Public dashboard / API** | https://northwind-intake-production.up.railway.app |
 | **Local desk** | `http://127.0.0.1:43145` after the steps below |
 
 The phone number is a Vapi free US line. Voice tool calls only persist if `PUBLIC_API_URL` still reaches this app. Assistant ids live in `data/live.json`.
